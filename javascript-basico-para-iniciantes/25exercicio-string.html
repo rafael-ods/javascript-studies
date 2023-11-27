@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const name = prompt('Digite seu nome completo: ')
+
+        document.body.innerHTML = `O seu nome é: <strong> ${name}<strong/> <br/>`
+        document.body.innerHTML +=
+            `Seu nome tem quantas letras <strong> ${name.length}<strong/> <br/>` // estou colando o somador na frente do = para ele nao zerar e colocar a ultima linha de codigo e sim manter todas em pagina
+        document.body.innerHTML += `A segunda letra do seu nome é: <strong>${name.charAt(1)} <strong/><br/>`
+        document.body.innerHTML +=
+            `Qual é o primeiro indice da letra A no seu nome: <strong>${name.indexOf('a', 0)} <strong/><br/>`
+        document.body.innerHTML +=
+            `Qual é o ultimo indice da letra A no seu nome:<strong> ${name.lastIndexOf('a')}<strong/> <br/>`
+        document.body.innerHTML += `As ultimas 3 letras do seu nome são: <strong>${name.slice(-3)} <strong/><br/>`
+        document.body.innerHTML += `As palavras do seu nome são: <strong>${name.split(' ')}<strong/> <br/>`
+        document.body.innerHTML += `Seu nome com letra maiuscula: <strong>${name.toUpperCase()}<strong/> <br/>`
+        document.body.innerHTML += `Seu nome com letra minuscula: <strong>${name.toLowerCase()} <strong/><br/>`
+    </script>
+</body>
+
+</html>
