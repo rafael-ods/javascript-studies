@@ -16,6 +16,7 @@ const createTask = (task) => {
 }
 
 inputTask.addEventListener('keypress', (e) => {
+  //FUNCAO PARA CAPTURAR O EVENTO DA TECLA ENTER E PEGAR O VALOR DO INPUT E ADD A CRIAÇÃO DE TASK
   if (e.keyCode === 13) {
     if (!inputTask.value) return
     createTask(inputTask.value)
