@@ -1,0 +1,1 @@
+// Funções fábrica (Factory Functions) NADA MAIS É DO QUE FUNCOES QUE RETORNA OBJETOS
