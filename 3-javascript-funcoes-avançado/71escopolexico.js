@@ -8,6 +8,7 @@ const talkName = () => {
 }
 
 function execution() {
+    const name = 'Maria' // NESTE CASO AQUI ELE NAO RECONHECE, POIS A FUNCAO ABAIXO GUARDA SEU ESCOPO DE ONDE FOI CHAMADA E DE SEUS PARENTES
     talkName()
 }
 

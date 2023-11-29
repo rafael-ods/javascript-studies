@@ -1,4 +1,4 @@
-// FunCAO DE CALLBACK SEM FUNCAO QUE SAO EXECUTADA QND DETERMINADA FUNCAO É REALIZADA
+// FunCAO DE CALLBACK SÃO FUNCAO QUE SAO EXECUTADA QND DETERMINADA FUNCAO É REALIZADA
 
 
 const randomNumber = (min = 1000, max = 3000) => {
@@ -37,7 +37,7 @@ function f3(callback) {
 //     })
 // })
 
-f1(f1Callback)
+f1(f1Callback) //NOME DE CRIAçÃO DA FUNCAO DE CALLBACK
 
 function f1Callback() {
     f2(f2Callback)

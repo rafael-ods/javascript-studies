@@ -24,3 +24,7 @@
 
     console.log(years, height, weight)
 })(30, 1.68, 68)
+
+// (() => {
+//     console.log('rafael')
+// })()
