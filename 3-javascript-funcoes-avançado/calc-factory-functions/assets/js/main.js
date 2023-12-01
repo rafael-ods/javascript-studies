@@ -56,6 +56,8 @@ function createCalc() {
         if (clickBtn.classList.contains('btn-num')) {
           //ESTAMOS PEGANDO APENAS O CONTEUDO DE TEXTO DO BOTAO E NAO A SUA TAG (HTML)
           this.setNumberDisplay(clickBtn.innerText)
+          //ADICIONANDO O FOCUS AQUI PARA QUE SEMPRE QUE ALGO FOR DIGITADO MANTENHA-SE O FOCUS
+          this.displayInput.focus()
         }
         if (clickBtn === this.btnClear) {
           this.setBtnClear()
