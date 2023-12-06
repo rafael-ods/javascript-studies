@@ -43,7 +43,7 @@ console.log(getStringName)
 const getYearsName = names.map((value) => {
     // delete value.name // PODEMOS DELETAR UMA PROPRIEDADE DE UM OBJETO DESTA FORMA
     return { // OU PODEMOS RETORNAR UM NOVO OBJETO CHAMANDO UMA NOVA PROPRIEDADE DE YEARS E ATRIBUINDO O VALOR DESTA PROPRIEDADE COM A PROPRIEDADE E VALOR DO OBJETO ANTIGO
-        years: value.years
+        newProps: value.years
     }
 })
 console.log(getYearsName)
