@@ -49,10 +49,3 @@ ValidateCpf.prototype.inSequence = function () {
 }
 
 const cpf = new ValidateCpf('070.987.720-03')
-
-
-if (cpf.validate()) {
-    console.log(`CPF VALIDO: ${cpf.cpf}`)
-} else {
-    console.log(`CPF INVALIDO: ${cpf.cpf}`)
-}
