@@ -47,10 +47,11 @@ body {
 
 .paragraph-positive,
 .paragraph-negative {
-  background: rgb(142, 220, 142);
-  padding: 10px 1px;
+  padding: 5px 1px;
+  background: rgb(181, 239, 181);
 }
 
 .paragraph-negative {
-  background: rgb(230, 128, 128);
+  background: none;
+  color: rgb(230, 128, 128);
 }
