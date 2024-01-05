@@ -28,3 +28,32 @@ for (let i = 0; i < elementos.length; i++) {
     const createTag = document.createElement(tag)
     createDiv.appendChild(createTag).innerHTML = texto
 }
+
+// elementos.forEach((obj) => {
+//     const {
+//         tag,
+//         texto
+//     } = obj
+
+//     const createTag = document.createElement(tag)
+//     createDiv.appendChild(createTag).innerHTML = texto
+// })
+
+// for (let {
+//         tag,
+//         texto
+//     } of elementos) {
+
+//     const createTag = document.createElement(tag)
+//     createDiv.appendChild(createTag).innerHTML = texto
+// }
+
+// for (let key in elementos) {
+//     const {
+//         tag,
+//         texto
+//     } = elementos[key]
+
+//     const createTag = document.createElement(tag)
+//     createDiv.appendChild(createTag).innerHTML = texto
+// }

@@ -69,7 +69,7 @@ const addIdNames = names.map((value, index) => { // PODERIA USAR O INDEX PARA CO
 console.log(addIdNames)
 
 function numberRandom(min = 1, max = 5000) {
-    return Math.floor(Math.random() * (min * max) * min)
+    return Math.round(Math.random() * (max - min) + min)
 }
 
 console.log(names)
